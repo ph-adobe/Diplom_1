@@ -1,5 +1,5 @@
 import pytest
-from burger import Burger
+from praktikum.burger import Burger
 from unittest.mock import Mock
 from data_for_tests import DataForTests as Dt
 
