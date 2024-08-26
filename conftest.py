@@ -38,14 +38,4 @@ def burger_with_bun_and_ingredients(burger, test_bun, test_ingredients):
 def database():
     return Database()
 
-# @pytest.fixture()
-# def burger_with_bun_and_ingredients(burger):
-#     mock_bun = Mock()
-#     burger.set_buns(mock_bun)
-#     mock_ingredient_1 = Mock()
-#     mock_ingredient_2 = Mock()
-#     mocks = [mock_ingredient_1, mock_ingredient_2]
-#     for mock in mocks:
-#         burger.add_ingredient(mock)
-#     return burger, mock_bun, mock_ingredient_1, mock_ingredient_2
 
